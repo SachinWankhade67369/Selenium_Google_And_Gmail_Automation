@@ -84,7 +84,7 @@ public class SeleniumTest1 {
 		System.out.println(14);
 		WebElement addMobile= wd.findElement(By.xpath(".//*[@id='mobile']"));
 		addMobile.clear();
-		addMobile.sendKeys("7030140848");
+		addMobile.sendKeys("7030144577");
 		
 		System.out.println(15);
 		WebElement addEmail= wd.findElement(By.xpath(".//*[@id='email']"));
