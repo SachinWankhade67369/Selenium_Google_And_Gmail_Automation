@@ -36,7 +36,7 @@ public class GoogleHomePage {
 		//2.xpath
 		WebElement serachTextbox= driver.findElement(By.xpath("//input[@name='q']"));
 		serachTextbox.clear();
-		serachTextbox.sendKeys("java by kiran");
+		serachTextbox.sendKeys("Sachin Tendulkar");
 		driver.findElement(By.xpath("//div[@class='FPdoLc VlcLAe']//input[@name='btnK']")).click();
 		
 		//3.name.
