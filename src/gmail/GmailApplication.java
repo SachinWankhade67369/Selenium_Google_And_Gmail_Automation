@@ -39,7 +39,7 @@ public class GmailApplication {
 		
 		//cssSelector is use to find out the locator.
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-		driver.findElement(By.cssSelector("#identifierId")).sendKeys("sachinwankhade.it@gmail.com");
+		driver.findElement(By.cssSelector("#identifierId")).sendKeys("sachin@gmail.com");
 		System.out.println(2);
 		
 		
